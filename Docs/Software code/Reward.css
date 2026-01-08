@@ -1,0 +1,21 @@
+h1{
+    color: rgb(251, 251, 251);
+}
+a{
+    color: rgb(21, 75, 236);
+}
+h2{
+    color: rgb(60, 255, 0);
+}
+th{
+    background-color: aqua;
+}
+h5{
+    color:wheat ;
+}
+h6{
+    color: beige;
+}
+h2{
+    border: 20px;
+}

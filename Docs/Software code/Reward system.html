@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Loyality Reward and Alert Dashboard</title>
+    <link rel="stylesheet" href="Reward.css">
+    <link rel="stylesheet" href="script.js">
+    <style>
+        /* Reset margin and padding for full-page effect */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page background image */
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-image: url('Alert.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Ensures the image covers the entire page */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+
+         
+    </style>
+    <script>
+        function redirectToPage() {
+            // Get the value of the selected option
+            var selectedValue = document.getElementById("linkSelect").value;
+
+            // Redirect to the selected link
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+    
+</head>
+<body>
+    <h1>&ensp;Alert and Reward Page</h1>
+    <h2>&ensp;<a href="http://127.0.0.1:3000/Users/adityakumar/Desktop/Ideathon Project.html/Water system.html/DataRecive.html">Return to main content</a></h2>
+    <br>
+    <h2>&ensp;Winner list</h2>
+    &ensp;&ensp;<select id="linkselection" onechanges="redirectToPage()">
+    <option value="Reward">Reward</option>
+    <option value="Emergency">Emergency</option>
+    <option value="Alert">Alert</option>
+</select>
+
+<br>
+<h2>&ensp;Reward Dashboard</h2>
+<table>
+    <tr>
+        <th colspan="10">S.no</th>
+        <th colspan="7">Name</th>
+        <th colspan="6">Save water</th>
+        <th colspan="4">Reward</th>
+        <th></th>
+    </tr>
+<tr>
+    <th colspan="10">1</th>
+    <th>HARSHIT</th>
+    <th colspan="12">1765</th>
+    <th colspan="4">Wave off 2 months water bill</th>
+    
+</tr>
+<tr>
+    <th colspan="10">2</th>
+    <th>KHUSHI</th>
+    <th colspan="12">10547</th>
+    <th colspan="4">Wave off 2 months water bill</th>
+   
+</tr>
+<tr>
+    <th colspan="10">3</th>
+    <th>SHIVAM</th>
+    <th colspan="12">1890</th>
+    <th colspan="4">wave off 1 months water bill</th>
+    
+    
+</tr>
+<tr>
+    <th colspan="10">4</th>
+    <th>PRANJUL</th>
+    <th colspan="12">4929</th>
+    <th colspan="4">wave off 1 months water bill</th>
+   
+</tr>
+</table>
+<br>
+<h5>&ensp;Note :- All Rewards will be sended to the Register mobile no & Reward may be vary</h5>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h6>&ensp;© 2025 Aditya, Mansi & Vivid Water System. All Rights Reserved.</h3>
+
+
+
+
+    
+</body>
+</html>

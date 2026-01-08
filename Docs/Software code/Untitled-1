@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya water system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Image</title>
+    <style>
+        /* Reset margin and padding for full-page effect */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page background image */
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-image: url('Water.JPG');
+            /* Replace with your image URL */
+            background-size: cover;
+            /* Ensures the image covers the entire page */
+            background-position: center;
+            /* Centers the image */
+            background-repeat: no-repeat;
+            /* Prevents the image from repeating */
+        }
+    </style>
+    <title>Non-Breaking Space</title>
+</head>
+
+<body>
+    <h1>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        ADITYA, MANSI & VIVID WATER SYSTEM</h1>
+    <form action="post">
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        &ensp;&ensp;&ensp;&ensp; <label for="User name">Search by Aadhar no / Phone no :-</label>
+        <input type="text" id="User name" Nmae="User name" placeholder="Aadhar no /Phone no">
+    </form>
+    <br>
+
+    <table>
+
+        <tr id="tagline">
+            <caption>Our clients Data</caption>
+            <br>
+            <th colspan="10">S.no</th>
+            <th>Customer ID</th>
+            <th colspan="7">Customer Name</th>
+            <th colspan="6">Water usage</th>
+            <th colspan="4">Avg Pressure</th>
+            <th colspan="4">TDS</th>
+            <th>Member in Family</th>
+            <th>Service active or Not</th>
+            <th>Last Fine</th>
+            <th>Water connection type</th>
+            <th>Remark</th>
+        </tr>
+
+
+        <tr>
+
+            <th colspan="10">1</th>
+            <th>1111</th>
+            <th>ADITYA KUMAR</th>
+            <th colspan="12">4068</th>
+            <th colspan="4">62 PSI</th>
+            <th colspan="4">500 PPM</th>
+            <th>3</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>DJB</th>
+            <th>Last bill due</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">2</th>
+            <th>2222</th>
+            <th>MANSI</th>
+            <th colspan="12">7215</th>
+            <th colspan="4">67 PSI</th>
+            <th colspan="4">600 PPM</th>
+            <th>5</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>DJB</th>
+            <th>Paid</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">3</th>
+            <th>3333</th>
+            <th>VIVID</th>
+            <th colspan="12">5380</th>
+            <th colspan="4">59 PSI</th>
+            <th colspan="4">450 PPM</th>
+            <th>4</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>Borewell</th>
+            <th>Paid</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">4</th>
+            <th>4444</th>
+            <th>RIYA</th>
+            <th colspan="12">3354</th>
+            <th colspan="4">40 PSI</th>
+            <th colspan="4">600 PPM</th>
+            <th>2</th>
+            <th>Active</th>
+            <th>2000/-</th>
+            <th>Borewell</th>
+            <th>Last bill due with Fine</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">5</th>
+            <th>5555</th>
+            <th>HARSHIT</th>
+            <th colspan="12">1765</th>
+            <th colspan="4">53 PSI</th>
+            <th colspan="4">1000 PPM</th>
+            <th>1</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>DJB</th>
+            <th>Paid</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">6</th>
+            <th>6666</th>
+            <th>KHUSHI</th>
+            <th colspan="12">10547</th>
+            <th colspan="4">58 PSI</th>
+            <th colspan="4">1300 PPM</th>
+            <th>5</th>
+            <th>Active</th>
+            <th>2000/-</th>
+            <th>Borewell</th>
+            <th>Last bill due with Fine</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">7</th>
+            <th>7777</th>
+            <th>SHIVAM</th>
+            <th colspan="12">1890</th>
+            <th colspan="4">69 PSI</th>
+            <th colspan="4">1400 PPM</th>
+            <th>3</th>
+            <th>Active</th>
+            <th>2000/-</th>
+            <th>DJB</th>
+            <th>Paid</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">8</th>
+            <th>8888</th>
+            <th>PRANJUL</th>
+            <th colspan="12">4929</th>
+            <th colspan="4">33 PSI</th>
+            <th colspan="4">2210 PPM</th>
+            <th>3</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>Borewell</th>
+            <th>Paid</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">9</th>
+            <th>9999</th>
+            <th>AYUSH</th>
+            <th colspan="12">8936</th>
+            <th colspan="4">45 PSI</th>
+            <th colspan="4">1900 PPM</th>
+            <th>4</th>
+            <th>Active</th>
+            <th>Nill</th>
+            <th>Borewell</th>
+            <th>Last bill due with Fine</th>
+        </tr>
+        <tr>
+
+            <th colspan="10">10</th>
+            <th>1010</th>
+            <th>SAGAR</th>
+            <th colspan="12">3128</th>
+            <th colspan="4">65 PSI</th>
+            <th colspan="4">1670 PPM</th>
+            <th>2</th>
+            <th>Active</th>
+            <th>2000</th>
+            <th>DJB</th>
+            <th>Paid</th>
+        </tr>
+
+
+
+
+
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a
+        href="http://127.0.0.1:3000/Users/adityakumar/Desktop/Ideathon Project.html/Water system.html/Reward system.html">Reward</a>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a
+        href="http://127.0.0.1:3000/Users/adityakumar/Desktop/Ideathon Project.html/Water system.html/Contact.html">Contact
+        us</a>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a
+        href="http://127.0.0.1:3000/Users/adityakumar/Desktop/Ideathon Project.html/Water system.html/Aboutus.html">Know
+        About us</a>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <h6 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;>© 2025 Aditya, Mansi
+        & Vivid Water System. All Rights Reserved.</h3>
+</body>
+
+</html>
