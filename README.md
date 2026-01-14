@@ -134,7 +134,7 @@ For licensing or collaboration, please contact: <adityakumar200424@gmail.com>
 https://drive.google.com/file/d/1Jtxg-Wae5J3X4USCAFlQqqdVJIdZTW7O/view?usp=sharing
 
 
-## 🙏 Conclusion
+##  Conclusion
 
 This project demonstrates how IoT, sensors, and software dashboards can work together to build
 an efficient, smart, and scalable **digital water monitoring system** — helping save every drop
